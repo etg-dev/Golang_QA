@@ -44,7 +44,7 @@ Go, also known as Golang, is a powerful and modern programming language designed
 
 [Q12. What do you need for two functions to be the same type?](#AL)
 
-[Q13. What is the value of Read?](#AM)
+[Q13. Which type is a rune an alias for?](#AM)
 
 [Q14. What is the value of Read?](#AN)
 
@@ -174,12 +174,12 @@ Go, also known as Golang, is a powerful and modern programming language designed
 
 <div id="AM"  />
 
-#### Q13. What is the value of Read?
+#### Q13. Which type is a rune an alias for?
 
-- [x] They should share the same signatures, including parameter types and return types.
-- [ ] They should share the same parameter types but can return different types.
-- [ ] All functions should be the same type.
-- [ ] The functions should not be a first class type.
+- [ ] char
+- [ ] byte
+- [x] int32
+- [ ] string
 
 <div id="AN"  />
 
