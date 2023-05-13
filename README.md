@@ -42,7 +42,7 @@ Go, also known as Golang, is a powerful and modern programming language designed
 
 [Q11. Can you have a variable of interface type in Go?](#AK)
 
-[ Q12. What do you need for two functions to be the same type?](#AL)
+[Q12. What do you need for two functions to be the same type?](#AL)
 
 [Q13. What is the value of Read?](#AM)
 
@@ -77,7 +77,7 @@ Go, also known as Golang, is a powerful and modern programming language designed
 
 #### Q2. What is an interface in Go?
 
-- [A] An interface is a type that represents a collection of methods.
+- [x] An interface is a type that represents a collection of methods.
 - [ ] An interface is a way to define constants in Go.
 - [ ] An interface is a type used for casting between different types.
 - [ ] An interface is a keyword used for importing external packages in Go.
