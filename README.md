@@ -62,6 +62,39 @@ Go, also known as Golang, is a powerful and modern programming language designed
 
 [Q21. What will this code print?](#AU)
 
+[Q22. What symbol is used to declare a single-line comment in Go?](#AV)
+
+[Q23. Which of the following is a valid way to declare a variable in Go?](#AW)
+
+[Q24. In Go, what is the correct way to define a function named add that takes two integer parameters and returns their sum?](#AY)
+
+[Q25. How do you import a package in Go?](#AZ)
+
+[Q26. What is the zero value of a boolean variable in Go?](#BA)
+
+[Q27. Which data type is used for storing single characters in Go?](#BB)
+
+[Q28. Which statement is used to create a loop in Go?](#BC)
+
+[Q29. In Go, how do you find the length of a slice?](#BD)
+
+[Q30. What is the correct syntax for declaring and initializing an empty map in Go?](#BE)
+
+[Q31. Which of the following statements is used to create a new instance of a structure in Go?](#BF)
+
+[Q32. What is the result of the expression 5 / 2 in Go?](#BG)
+
+[Q33. How do you declare and initialize a constant in Go?](#BH)
+
+[Q34. In Go, what is the purpose of the panic function?](#BI)
+
+[Q35. Which of the following is a correct way to define an empty slice in Go?](#BJ)
+
+[Q36. What is the purpose of the range keyword in a for loop in Go?](#BK)
+
+[Q37. Which of the following is a valid way to concatenate two strings in Go?](#BL)
+
+[Q38. In Go, how do you declare a pointer to an integer variable?](#BM)
 ---
 
 <div id="AA"  />
@@ -274,3 +307,184 @@ fmt.Println(i)
 - [ ] 0
 - [ ] NaN
 - [ ] 130
+
+<div id="AV"  />
+
+#### Q22. What symbol is used to declare a single-line comment in Go?
+
+- [ ] /*
+- [ ] #
+- [x] //
+- [ ] --
+
+
+<div id="AW" />
+
+#### Q23. Which of the following is the easiest way to declare a variable in Go?
+
+- [ ] let name = "mobin"
+- [ ] var name string = "mobin"
+- [ ] name = "mobin"
+- [ ] name := "mobin"
+
+<div id="AY" />
+
+#### Q24. In Go, what is the correct way to define a function named add that takes two integer parameters and returns their sum?
+
+- [ ] function add(a int, b int) int { }
+- [x] func add(a int, b int) int { }
+- [ ] def add(a int, b int) int { }
+- [ ] procedure add(a int, b int) int { }
+
+<div id="AZ" />
+
+#### Q25. How do you import a package in Go?
+
+- [ ] include "package_name"
+- [x] import "package_name"
+- [ ] require "package_name"
+- [ ] use "package_name"
+
+<div id="BA" />
+
+#### Q26. What is the zero value of a boolean variable in Go?
+
+- [ ] true
+- [ ] 0
+- [x] false
+- [ ] null
+
+<div id="BB" />
+
+#### Q27. Which data type is used for storing single characters in Go?
+
+ - [ ] string
+ - [x] rune
+ - [ ] character
+ - [ ] str
+
+<div id="BC" />
+
+#### Q28. Which statement is used to create a loop in Go?
+
+ - [x] for i := 0; i < 10; i++ { }
+ - [ ] while i < 10 { }
+ - [ ] loop (i < 10) { }
+ - [ ] repeat 10 times { }
+
+<div id="BD" />
+
+#### Q29. In Go, how do you find the length of a slice?
+
+ - [x] len(slice_name)
+ - [ ] size(slice_name)
+ - [ ] slice_name.length()
+ - [ ] slice_name.size()
+
+<div id="BE" />
+
+#### Q30. What is the correct syntax for declaring and initializing an empty map in Go?
+
+ - [ ] var myMap map[string]int
+ - [x] myMap := make(map[string]int)
+ - [ ] myMap = map[string]int{}
+ - [ ] myMap := map[string]int{}
+
+<div id="BF" />
+
+#### Q31. Which of the following statements is used to create a new instance of a structure in Go?
+
+ - [ ] new(struct_name)
+ - [ ] create struct_name
+ - [x] struct_name{}
+ - [ ] instantiate struct_name
+
+<div id="BG" />
+
+#### Q32. What is the result of the expression 5 / 2 in Go?
+
+ - [ ] 2.5
+ - [x] 2
+ - [ ] 2.0
+ - [ ] 2.5 (rounded down to 2)
+
+<div id="BH" />
+
+#### Q33. How do you declare and initialize a constant in Go?
+
+ - [ ] const pi float64 = 3.14
+ - [x] constant pi = 3.14
+ - [ ] pi := 3.14
+ - [ ] let pi = 3.14
+
+<div id="BI" />
+
+#### Q34. In Go, what is the purpose of the panic function?
+
+ - [ ] To print a message to the console
+ - [x] To stop the program immediately
+ - [ ] To handle errors gracefully
+ - [ ] To pause the program's execution temporarily
+
+<div id="BJ" />
+
+#### Q35. Which of the following is a correct way to define an empty slice in Go?
+
+ - [ ] emptySlice = []
+ - [ ] emptySlice := []
+ - [ ] emptySlice = make([]int, 0)
+ - [x] emptySlice := make([]int, 0)
+
+<div id="BK" />
+
+#### Q36. What is the purpose of the range keyword in a for loop in Go?
+
+ - [ ] It defines the range of loop iterations.
+ - [ ] It is used for error handling.
+ - [x] It iterates over elements of a collection like an array or slice.
+ - [ ] It specifies the loop termination condition
+
+<div id="BL" />
+
+#### Q37. Which of the following is a valid way to concatenate two strings in Go?
+
+ - [ ] str1.concat(str2)
+ - [x] str1 + str2
+ - [ ] strings.Concat(str1, str2)
+ - [ ] strings.Join([]string{str1, str2}, "")
+
+<div id="BM" />
+
+#### Q38. In Go, how do you declare a pointer to an integer variable?
+
+ - [ ] int* ptr = &variable
+ - [x] var ptr *int = &variable
+ - [ ] pointer int = &variable
+ - [ ] ptr := &variable
+
+<div id="BN" />
+
+#### Q39. What is the purpose of the select statement in Go?
+
+ - [ ] It is used for type assertions.
+ - [x] It is used for channel communication.
+ - [ ] It is used to define custom data types.
+ - [ ] It is used for error handling.
+
+<div id="BO" />
+
+#### Q40. What is the correct way to create an anonymous function (a function without a name) in Go?
+
+ - [x] func() { }
+ - [ ] function() { }
+ - [ ] anonymous func() { }
+ - [ ] lambda() { }
+
+<div id="BP" />
+
+#### Q41. In Go, what is the purpose of the ... syntax in a function parameter?
+
+ - [x] It denotes a variadic function that can accept a variable number of arguments.
+ - [ ] It indicates a function that does not accept any arguments.
+ - [ ] It specifies a function that returns a variable number of values.
+ - [ ] It represents an array with a dynamic size.
