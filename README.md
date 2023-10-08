@@ -95,6 +95,12 @@ Go, also known as Golang, is a powerful and modern programming language designed
 [Q37. Which of the following is a valid way to concatenate two strings in Go?](#BL)
 
 [Q38. In Go, how do you declare a pointer to an integer variable?](#BM)
+
+[Q39. What is the purpose of the select statement in Go?](#BN)
+
+[Q40. What is the correct way to create an anonymous function (a function without a name) in Go?](#BO)
+
+[Q41. In Go, what is the purpose of the ... syntax in a function parameter?](#BP)
 ---
 
 <div id="AA"  />
